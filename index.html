@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Food-wagon</title>
+    <script
+      src="https://kit.fontawesome.com/2ab38ab271.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand"><img src="image-font/Logo.png" alt="" /></a>
+        <div class="nav-center">
+          <p>
+            Deliver to: &nbsp;&nbsp;<img
+              src="image-font/placeholder.png"
+              alt=""
+            /><span>&nbsp;&nbsp;Current Location</span> Mohammadpur Bus Stand
+            Dhaka
+          </p>
+        </div>
+        <form class="d-flex" role="search">
+          <input
+            class="form-control me-2"
+            id="search-bar"
+            type="search"
+            placeholder="Search Foods"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success" id="nav-button">
+            <img src="image-font/account.png" alt="" />Login
+          </button>
+        </form>
+      </div>
+    </nav>
+    <div class="title">
+      <div class="title-description">
+        <h2>Are you Starving?</h2>
+        <p>
+          Within a few clicks, find meals <br />
+          that are accessible near you
+        </p>
+        <div class="delivery-box">
+          <div class="button">
+            <button>
+              <i class="fa-solid fa-motorcycle"></i>&nbsp;&nbsp;Delivery
+            </button>
+            <button>
+              <i class="fa-solid fa-bag-shopping"></i>&nbsp;&nbsp;Pickup
+            </button>
+          </div>
+          <div class="input-adress">
+            <input type="search" placeholder="Enter Your Adress" />
+            <button>Find Food</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-header">
+        <img
+          src="image-font/hero-header.png"
+          alt=""
+          class="animate__animated animate__fadeInRight"
+        />
+      </div>
+    </div>
+    <br /><br /><br /><br /><br /><br />
+
+    <div class="container text-center">
+      <div class="row">
+        <div class="col">
+          <div class="food-images">
+            <img src="image-font/food1.png" alt="" />
+            <h4>Flat Hill Slingback</h4>
+            <button>4 Days Remaining</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="food-images">
+            <img src="image-font/food2.png" alt="" />
+            <h4>Ocean Blue Ring</h4>
+            <button>8 Days Remaining</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="food-images">
+            <img src="image-font/food3.png" alt="" />
+            <h4>Brown Leatherered Wallet</h4>
+            <button>5 Days Remaining</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="food-images">
+            <img src="image-font/food4.png" alt="" />
+            <h4>Silver Side Wristwatch</h4>
+            <button>6 Days Remaining</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br /><br /><br />
+
+    <div class="second-title">
+      <div class="howdoesitwork">
+        <h2>How does it work</h2>
+      </div>
+      <div class="howitwork">
+        <div class="work-box1">
+          <div class="work-image">
+            <img src="image-font/location (1).png" alt="" />
+          </div>
+          <div class="work-head">
+            <h4>Select Location</h4>
+          </div>
+          <div class="work-description">
+            <p>
+              Choose the location where <br />
+              your food will be delivered
+            </p>
+          </div>
+        </div>
+
+        <div class="work-box1">
+          <div class="work-image">
+            <img src="image-font/order.png" alt="" />
+          </div>
+          <div class="work-head">
+            <h4>Choose order</h4>
+          </div>
+          <div class="work-description">
+            <p>
+              Check over hundreds of <br />
+              menus to pick your favorite <br />food
+            </p>
+          </div>
+        </div>
+
+        <div class="work-box1">
+          <div class="work-image">
+            <img src="image-font/pay.png" alt="" />
+          </div>
+          <div class="work-head">
+            <h4>Pay advanced</h4>
+          </div>
+          <div class="work-description">
+            <p>
+              It's quick, safe, and simple. <br />
+              Select several methods of <br />payment
+            </p>
+          </div>
+        </div>
+
+        <div class="work-box1">
+          <div class="work-image">
+            <img src="image-font/meals.png" alt="" />
+          </div>
+          <div class="work-head">
+            <h4>Enjoy meals</h4>
+          </div>
+          <div class="work-description">
+            <p>
+              Food is made and delivered <br />
+              directly to your home.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br /><br /><br />
+
+    <div class="popular-items">
+      <h2>Popular items</h2>
+    </div>
+    <br /><br /><br />
+
+    <div class="popular-itemcards">
+      <div class="left-arrow">
+        <img src="image-font/leftarrow.svg" alt="" />
+      </div>
+      <div class="popular-box">
+        <div class="popular-image">
+          <img src="image-font/cheese-burger.png" alt="" />
+        </div>
+        <div class="popular-head">
+          <h4>Cheese Burger</h4>
+        </div>
+        <div class="popular-locate">
+          <p>
+            <i class="fa-sharp fa-solid fa-location-dot"></i>&nbsp;&nbsp;Burger
+            Arena
+          </p>
+        </div>
+        <div class="popular-price">
+          <p>$3.88</p>
+        </div>
+        <div class="popular-button">
+          <button>Order now</button>
+        </div>
+      </div>
+
+      <div class="popular-box">
+        <div class="popular-image">
+          <img src="image-font/toffes-cake.png" alt="" />
+        </div>
+        <div class="popular-head">
+          <h4>Toffe's Cake</h4>
+        </div>
+        <div class="popular-locate">
+          <p>
+            <i class="fa-sharp fa-solid fa-location-dot"></i>&nbsp;&nbsp;Top
+            Sticks
+          </p>
+        </div>
+        <div class="popular-price">
+          <p>$4.00</p>
+        </div>
+        <div class="popular-button">
+          <button>Order now</button>
+        </div>
+      </div>
+
+      <div class="popular-box">
+        <div class="popular-image">
+          <img src="image-font/dancake.png" alt="" />
+        </div>
+        <div class="popular-head">
+          <h4>Dan Cake</h4>
+        </div>
+        <div class="popular-locate">
+          <p>
+            <i class="fa-sharp fa-solid fa-location-dot"></i>&nbsp;&nbsp;Cake
+            World
+          </p>
+        </div>
+        <div class="popular-price">
+          <p>$1.99</p>
+        </div>
+        <div class="popular-button">
+          <button>Order now</button>
+        </div>
+      </div>
+
+      <div class="popular-box">
+        <div class="popular-image">
+          <img src="image-font/crispy-sandwitch.png" alt="" />
+        </div>
+        <div class="popular-head">
+          <h4>Crispy Sandwich</h4>
+        </div>
+        <div class="popular-locate">
+          <p>
+            <i class="fa-sharp fa-solid fa-location-dot"></i
+            >&nbsp;&nbsp;FastFood Dine
+          </p>
+        </div>
+        <div class="popular-price">
+          <p>$3.00</p>
+        </div>
+        <div class="popular-button">
+          <button>Order now</button>
+        </div>
+      </div>
+
+      <div class="popular-box">
+        <div class="popular-image">
+          <img src="image-font/thai-soup.png" alt="" />
+        </div>
+        <div class="popular-head">
+          <h4>Thai Soup</h4>
+        </div>
+        <div class="popular-locate">
+          <p>
+            <i class="fa-sharp fa-solid fa-location-dot"></i>&nbsp;&nbsp;Food
+            Man
+          </p>
+        </div>
+        <div class="popular-price">
+          <p>$2.79</p>
+        </div>
+        <div class="popular-button">
+          <button>Order now</button>
+        </div>
+      </div>
+      <div class="right-arrow">
+        <img src="image-font/rightarow1.svg" alt="" />
+      </div>
+    </div>
+    <br /><br /><br /><br /><br /><br />
+
+    <div class="featured-rest">
+      <h2>Featured Restaurant</h2>
+    </div>
+    <br /><br />
+   <div class="featured-cards">
+    <div class="featured-box">
+      <div class="featured-image">
+        <img src="image-font/Food 1.png" alt="" />
+      </div>
+      <div class="featured-item">
+        <div class="food-logo">
+          <img src="image-font/food-world-logo.png" alt="" />
+        </div>
+        <div class="food-name">
+          <h5>Food World</h5>
+          <p><i class="fa-solid fa-star"></i>&nbsp;46</p>
+        </div>
+      </div>
+      <div class="open">
+        <button>Open Tomorrow</button>
+      </div>
+    </div>
+
+
+
+
+
+    <div class="featured-box">
+      <div class="featured-image">
+        <img src="image-font/Food 2.png" alt="" />
+      </div>
+      <div class="featured-item">
+        <div class="food-logo">
+          <img src="image-font/pizzahub-logo.png" alt="" />
+        </div>
+        <div class="food-name">
+          <h5>Pizza hub</h5>
+          <p><i class="fa-solid fa-star"></i>&nbsp;40</p>
+        </div>
+      </div>
+      <div class="open">
+        <button>Open Tomorrow</button>
+      </div>
+    </div>
+
+
+
+
+
+    <div class="featured-box">
+      <div class="featured-image">
+        <img src="image-font/Food 3.png" alt="" />
+      </div>
+      <div class="featured-item">
+        <div class="food-logo">
+          <img src="image-font/donuts-hut-logo.png" alt="" />
+        </div>
+        <div class="food-name">
+          <h5>Donuts hut
+          </h5>
+          <p><i class="fa-solid fa-star"></i>&nbsp;20</p>
+        </div>
+      </div>
+      <div class="open1">
+        <button>Open Now</button>
+      </div>
+    </div>
+
+
+
+    <div class="featured-box">
+      <div class="featured-image">
+        <img src="image-font/Food 4.png" alt="" />
+      </div>
+      <div class="featured-item">
+        <div class="food-logo">
+          <img src="image-font/donut-hut-logo.png" alt="" />
+        </div>
+        <div class="food-name">
+          <h5>Donuts hut</h5>
+          <p><i class="fa-solid fa-star"></i>&nbsp;50</p>
+        </div>
+      </div>
+      <div class="open1">
+        <button>Open Now</button>
+      </div>
+    </div>
+    </div>
+
+
+
+    <div class="featured-cards">
+      <div class="featured-box1">
+        <div class="featured-image">
+          <img src="image-font/Food 5.png" alt="" />
+        </div>
+        <div class="featured-item">
+          <div class="food-logo">
+            <img src="image-font/ruby-tuesday-logo.png" alt="" />
+          </div>
+          <div class="food-name">
+            <h5>Rubby tuesday</h5>
+            <p><i class="fa-solid fa-star"></i>&nbsp;50</p>
+          </div>
+        </div>
+        <div class="open1">
+          <button>Open Now</button>
+        </div>
+      </div>
+  
+  
+  
+  
+  
+      <div class="featured-box1">
+        <div class="featured-image">
+          <img src="image-font/Food 6.png" alt="" />
+        </div>
+        <div class="featured-item">
+          <div class="food-logo">
+            <img src="image-font/kuakata-logo.png" alt="" />
+          </div>
+          <div class="food-name">
+            <h5>Kuakata Chicken</h5>
+            <p><i class="fa-solid fa-star"></i>&nbsp;50</p>
+          </div>
+        </div>
+        <div class="open1">
+          <button>Open Now</button>
+        </div>
+      </div>
+  
+  
+  
+  
+  
+      <div class="featured-box1">
+        <div class="featured-image">
+          <img src="image-font/Food 7.png" alt="" />
+        </div>
+        <div class="featured-item">
+          <div class="food-logo">
+            <img src="image-font/donuts-hut-logo.png" alt="" />
+          </div>
+          <div class="food-name">
+            <h5>Kuakata Chicken
+            </h5>
+            <p><i class="fa-solid fa-star"></i>&nbsp;50</p>
+          </div>
+        </div>
+        <div class="open1">
+          <button>Open Now</button>
+        </div>
+      </div>
+  
+  
+  
+      <div class="featured-box1">
+        <div class="featured-image">
+          <img src="image-font/Food 8.png" alt="" />
+        </div>
+        <div class="featured-item">
+          <div class="food-logo">
+            <img src="image-font/taco-bell-logo.png" alt="" />
+          </div>
+          <div class="food-name">
+            <h5>Taco bell</h5>
+            <p><i class="fa-solid fa-star"></i>&nbsp;50</p>
+          </div>
+        </div>
+        <div class="open1">
+          <button>Open Now</button>
+        </div>
+      </div>
+      </div> <br><br><br><br><br>
+  
+      <div class="center">
+        <button>View all&nbsp;&nbsp;<i class="fa-solid fa-chevron-right"></i></button>
+      </div>
+    </div> <br><br><br><br>
+<div class="search-box">
+<div class="search-food">
+  <div class="search-head">
+     <h2>Search by Foods</h2>
+  </div>
+  <div class="viewall">
+  <a href="">View all&nbsp;&nbsp;<i class="fa-solid fa-chevron-right"></i></a>
+  <a href=""><img src="image-font/leftarrow.svg" alt="" width="50px" height="50px">
+  <img src="image-font/rightarow1.svg" alt="" width="50px " height="50px"></a>
+  </div>
+</div> <br><br>
+
+<div class="search-boxes">
+<div class="food-circle" >
+  <div class="food-circle-image">
+    <img src="image-font/searchfood1.png" alt="">
+    </div>
+    <div class="search-name">
+      <h4>Pizza</h4>
+    </div>
+</div>
+
+
+<div class="food-circle" >
+  <div class="food-circle-image">
+    <img src="image-font/searchfood2.png" alt="">
+    </div>
+    <div class="search-name">
+      <h4>Burger</h4>
+    </div>
+</div>
+
+
+
+<div class="food-circle" >
+  <div class="food-circle-image">
+    <img src="image-font/searchfood3.png" alt="">
+    </div>
+    <div class="search-name">
+      <h4>Noddles</h4>
+    </div>
+</div>
+
+
+<div class="food-circle" >
+  <div class="food-circle-image">
+    <img src="image-font/searchfood4.png" alt="">
+    </div>
+    <div class="search-name">
+      <h4>Sandwich</h4>
+    </div>
+</div>
+
+
+<div class="food-circle" >
+  <div class="food-circle-image">
+    <img src="image-font/searchfood5.png" alt="">
+    </div>
+    <div class="search-name">
+      <h4>Chowmein</h4>
+    </div>
+</div>
+
+
+<div class="food-circle" >
+  <div class="food-circle-image">
+    <img src="image-font/searchfood6.png" alt="">
+    </div>
+    <div class="search-name">
+      <h4>Steak</h4>
+    </div>
+</div>
+
+</div> <br><br><br><br><br>
+
+
+<div class="media-poster">
+   <div class="media-service">
+     <div class="discount">
+ <img src="image-font/1.png" alt="">
+  </div>
+  <div class="tracking">
+   <img src="image-font/2.png" alt="">
+ </div>
+   <div class="delivery">
+   <img src="image-font/3.png" alt="">
+  </div>
+</div> <br><br>
+
+
+
+<div class="watch-responsive">
+<div class="mob-responsive">
+<img src="image-font/phone-cta-one.png" alt="">
+</div>
+<div class="app">
+  <h2>Install the app</h2>
+  <p>It's never been easier to order food. <br> Look for the finest discounts and you'll <br>be lost in a world of delectable food.</p>
+  <a href=""><img src="image-font/Google Play Download.png" alt=""></a>
+  <a href=""><img src="image-font/App Store Download Button.png" alt=""></a>
+</div>
+</div>
+
+</div><br><br><br><br>
+
+<div class="order-box">
+<div class="order-title">
+<div class="order-head">
+<h2>Best deals <span>Crispy <br> Sandwiches</span></h2>
+</div>
+<div class="order-description">
+  <p>Enjoy the large size of sandwiches. Complete <br> your meal with the perfect slice of <br>sandwiches.</p>
+
+
+</div>
+<div class="order-button">
+<button>PROCEED TO ORDER</button>
+</div>
+</div>
+
+<div class="order-image">
+  <img src="image-font/Image1.png" alt="">
+</div>
+</div><br><br><br><br>
+ 
+<div class="order-box">
+  <div class="order-title">
+  <div class="order-head">
+  <h2>Celebrate parties <br> with <span>Fried Chicken</span></h2>
+  </div>
+  <div class="order-description">
+<p>Get the best fried chicken smeared with a lip <br>smacking lemon chili flavor. Check out <br>
+  best deals for fried chicken.</p>  
+  
+  </div>
+  <div class="order-button">
+  <button>PROCEED TO ORDER</button>
+  </div>
+  </div> 
+  
+  <div class="order-image">
+    <img src="image-font/Image2.png" alt="">
+  </div>
+  </div><br><br><br><br> 
+
+  <div class="order-box">
+    <div class="order-title">
+    <div class="order-head">
+    <h2>Wanna eat hot <br>& spicy<span>Pizza?</span></h2>
+    </div>
+    <div class="order-description">
+       <p>Pair up with a friend and enjoy the <br>
+            hot and crispy pizza pops. Try it <br>
+                with the best deals.</p>    
+    
+    </div>
+    <div class="order-button">
+    <button>PROCEED TO ORDER</button>
+    </div>
+    </div>
+    
+    <div class="order-image">
+      <img src="image-font/image3.png" alt="">
+    </div>
+    </div><br><br><br><br>
+
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
